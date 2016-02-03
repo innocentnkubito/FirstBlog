@@ -10,7 +10,7 @@ namespace FirstBlog.Controllers
     {
         public ActionResult Index()
         {
-            return Content("Hello World");
+            return View();
         }
     }
 }
