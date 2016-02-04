@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace FirstBlog.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class PostsController : Controller
     {
         //
